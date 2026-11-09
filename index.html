@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#1B1F3B" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="description" content="Peel the whole planet Earth in one unbroken strip." />
+    <link rel="icon" href="data:," />
+    <title>One Peel (prototype)</title>
+    <style>html,body{overscroll-behavior:none;-webkit-tap-highlight-color:transparent;background:#1b1f3b;height:100%;margin:0;overflow:hidden}body{touch-action:none;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;color:#fff;font-family:ui-rounded,SF Pro Rounded,Arial Rounded MT Bold,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;position:fixed;top:0;bottom:0;left:0;right:0}#game,#hud{width:100%;height:100%;display:block;position:absolute;top:0;bottom:0;left:0;right:0}#game{touch-action:none;-webkit-touch-callout:none}#hud{pointer-events:none}#ui{pointer-events:none;padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);position:absolute;top:0;bottom:0;left:0;right:0}#ui .tap{pointer-events:auto}#result{left:16px;right:16px;bottom:calc(24px + env(safe-area-inset-bottom));color:#2a1a2a;transform-origin:50% 100%;background:#f3e6d0;border:5px solid #c98a4b;border-radius:22px;padding:18px 18px 16px;display:none;position:absolute;box-shadow:0 10px #5b3a5e73}#result.gold{border-color:#ffc93c}#result h2{margin:0 0 4px;font-size:26px;line-height:1.1}#result .big{color:#5b3a5e;font-size:30px;font-weight:800}#result .moon{color:#5b3a5e;opacity:.85;margin-bottom:8px;font-size:16px;font-weight:700}#result .row{border-top:2px dashed #d9c6a8;justify-content:space-between;padding:5px 0;font-size:16px;font-weight:700;display:flex}#result .tot{border-top:3px solid #d9c6a8;justify-content:space-between;padding:8px 0 12px;font-size:22px;font-weight:800;display:flex}#result .btns{gap:10px;display:flex}#result button{color:#2a1a2a;border:0;border-radius:16px;flex:1;min-height:60px;font:800 20px ui-rounded,Arial Rounded MT Bold,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;box-shadow:0 5px #5b3a5e80}#retry{background:#ffc93c}#earthAgain{background:#6bcb77;flex:.85!important;font-size:17px!important}</style>
+    <script type="module" crossorigin src="./assets/index-C8vDsJzD.js"></script>
+  </head>
+  <body>
+    <canvas id="game"></canvas>
+    <canvas id="hud"></canvas>
+    <div id="ui">
+      <div id="result" class="tap">
+        <h2 id="rTitle"></h2>
+        <div class="big" id="rLen"></div>
+        <div class="moon" id="rMoon"></div>
+        <div id="rRows"></div>
+        <div class="tot"><span id="rTotL"></span><span id="rTot"></span></div>
+        <div class="btns"><button id="retry" class="tap"></button><button id="earthAgain" class="tap"></button></div>
+      </div>
+    </div>
+  </body>
+</html>
