@@ -21,7 +21,11 @@
     "audio/snap_fruit-1.mp3",
     "audio/snap_fruit-2.mp3"
   ],
-  "snap_earth": "audio/snap_earth.mp3",
+  "snap_earth": [
+    "audio/snap_earth-1.mp3",
+    "audio/snap_earth-2.mp3",
+    "audio/snap_earth-3.mp3"
+  ],
   "thwap": [
     "audio/thwap-1.mp3",
     "audio/thwap-2.mp3"
@@ -43,8 +47,17 @@
   "volcano": "audio/volcano.mp3",
   "knock": "audio/knock.mp3",
   "drop": "audio/drop.mp3",
-  "crack": "audio/crack.mp3",
-  "crowd_gasp": "audio/crowd_gasp.mp3",
+  "crack": [
+    "audio/crack-1.mp3",
+    "audio/crack-2.mp3",
+    "audio/crack-3.mp3"
+  ],
+  "crowd_gasp": [
+    "audio/crowd_gasp-1.mp3",
+    "audio/crowd_gasp-2.mp3",
+    "audio/crowd_gasp-3.mp3",
+    "audio/crowd_gasp-4.mp3"
+  ],
   "crowd_oooh": "audio/crowd_oooh.mp3",
   "crowd_cheer": "audio/crowd_cheer.mp3",
   "tap": "audio/tap.mp3",
@@ -53,6 +66,21 @@
   "crowd_phew": "audio/crowd_phew.mp3",
   "ice_crackle": "audio/ice_crackle.mp3",
   "fiber_pop": "audio/fiber_pop.mp3",
+  "crowd_aww": [
+    "audio/crowd_aww-1.mp3",
+    "audio/crowd_aww-2.mp3"
+  ],
+  "ice_fissure": [
+    "audio/ice_fissure-1.mp3",
+    "audio/ice_fissure-2.mp3",
+    "audio/ice_fissure-3.mp3"
+  ],
+  "ice_tick": [
+    "audio/ice_tick-1.mp3",
+    "audio/ice_tick-2.mp3"
+  ],
+  "ice_strain": "audio/ice_strain.mp3",
+  "cap_sting": "audio/cap_sting.mp3",
   "music_golden": "audio/music_golden.mp3",
   "music_planet": "audio/music_planet.mp3",
   "sting_win": "audio/sting_win.mp3",
@@ -77,5 +105,53 @@
   ],
   "vo_best_es": "audio/vo_best_es.mp3",
   "vo_next_es": "audio/vo_next_es.mp3",
-  "vo_bank_es": "audio/vo_bank_es.mp3"
+  "vo_bank_es": "audio/vo_bank_es.mp3",
+  "vo_lunch_en": [
+    "audio/vo_lunch_en-1.mp3",
+    "audio/vo_lunch_en-2.mp3"
+  ],
+  "vo_lunch_es": [
+    "audio/vo_lunch_es-1.mp3",
+    "audio/vo_lunch_es-2.mp3"
+  ],
+  "vo_again_en": [
+    "audio/vo_again_en-1.mp3",
+    "audio/vo_again_en-2.mp3"
+  ],
+  "vo_again_es": [
+    "audio/vo_again_es-1.mp3",
+    "audio/vo_again_es-2.mp3"
+  ],
+  "vo_close_en": [
+    "audio/vo_close_en-1.mp3",
+    "audio/vo_close_en-2.mp3"
+  ],
+  "vo_close_es": [
+    "audio/vo_close_es-1.mp3",
+    "audio/vo_close_es-2.mp3"
+  ],
+  "vo_comeon_en": [
+    "audio/vo_comeon_en-1.mp3",
+    "audio/vo_comeon_en-2.mp3"
+  ],
+  "vo_comeon_es": [
+    "audio/vo_comeon_es-1.mp3",
+    "audio/vo_comeon_es-2.mp3"
+  ],
+  "vo_almost_en": [
+    "audio/vo_almost_en-1.mp3",
+    "audio/vo_almost_en-2.mp3"
+  ],
+  "vo_almost_es": [
+    "audio/vo_almost_es-1.mp3",
+    "audio/vo_almost_es-2.mp3"
+  ],
+  "vo_99_en": [
+    "audio/vo_99_en-1.mp3",
+    "audio/vo_99_en-2.mp3"
+  ],
+  "vo_99_es": [
+    "audio/vo_99_es-1.mp3",
+    "audio/vo_99_es-2.mp3"
+  ]
 }
