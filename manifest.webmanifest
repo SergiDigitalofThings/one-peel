@@ -1,7 +1,7 @@
 {
   "name": "One Peel",
   "short_name": "One Peel",
-  "description": "Peel the whole planet Earth in one unbroken strip.",
+  "description": "How deep can you peel the Earth? Pull the skin off and see what is under it.",
   "start_url": "./",
   "scope": "./",
   "display": "fullscreen",
